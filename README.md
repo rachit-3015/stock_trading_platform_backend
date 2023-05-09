@@ -1,4 +1,4 @@
-# stock_trading_platform_backend![Picsart_23-05-10_00-27-04-015]
+# stock_trading_platform_backend!
 ![first com com](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/d9667620-a54f-45e5-a1b7-a8a9d7152964)
 ![seventh](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/305c1d95-3588-4f86-af54-b956f809bbcd)
 ![tenth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/c1cd01ca-acd4-478e-9d8b-09e14e90fe96)
