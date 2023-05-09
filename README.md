@@ -1,6 +1,5 @@
 # stock_trading_platform_backend
  ![third](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/4b19b4fd-b6bb-46b6-877d-d9036b9b6a68)
- <br/>
 ![seventh](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/305c1d95-3588-4f86-af54-b956f809bbcd)
 ![tenth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/c1cd01ca-acd4-478e-9d8b-09e14e90fe96)
 ![second](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/2a532939-7332-4327-a2de-9d274fd997e8)
