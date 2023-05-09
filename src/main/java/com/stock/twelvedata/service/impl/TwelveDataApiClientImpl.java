@@ -18,7 +18,7 @@ import java.util.Map;
 
 @Component
 public class TwelveDataApiClientImpl implements TwelveDataApiClient {
-    private static final String BASE_URL = "https://api.twelvedata.com/";
+    private static final String BASE_URL = "";
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
     private final OkHttpClient client;
