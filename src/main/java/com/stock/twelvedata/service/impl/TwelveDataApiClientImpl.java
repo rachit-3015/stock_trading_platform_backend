@@ -18,7 +18,7 @@ import java.util.Map;
 
 @Component
 public class TwelveDataApiClientImpl implements TwelveDataApiClient {
-    private static final String BASE_URL = "https://api.twelvedata.com/";
+    private static final String BASE_URL = "";
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
     private final OkHttpClient client;
@@ -32,7 +32,7 @@ public class TwelveDataApiClientImpl implements TwelveDataApiClient {
     @Override//this is not in use
     public StockData getQuoteData(String symbol) throws IOException {
 
-        String url = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "8c83f0b9ab1d43138b68d3a43f67e052");
+        String url = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "");
 
         Request request = new Request.Builder()
                 .url(url)
@@ -86,7 +86,7 @@ public class TwelveDataApiClientImpl implements TwelveDataApiClient {
 
     @Override//this is not in use
     public LiveStockPrice getLiveStockPrice(String symbol) throws IOException {
-        String url = String.format("%sprice?symbol=%s&interval=1min&apikey=%s", BASE_URL, symbol, "5382352b0e9b4dd78af034a773b8f7a7");
+        String url = String.format("%sprice?symbol=%s&interval=1min&apikey=%s", BASE_URL, symbol, "");
 
         Request request = new Request.Builder()
                 .url(url)
@@ -111,7 +111,7 @@ public class TwelveDataApiClientImpl implements TwelveDataApiClient {
     public AllTimeSeriesStock getAllTimeSeriesStock() throws IOException {
         List<String> symbols = List.of("TSLA","GS","JPM","MS","GNENF","WFC","BAC");
         String symbolSep = String.join(",", symbols);
-        String url = String.format("%time_series?symbol=%s&apikey=%s&outputsize=1", BASE_URL, symbolSep, "5382352b0e9b4dd78af034a773b8f7a7");
+        String url = String.format("%time_series?symbol=%s&apikey=%s&outputsize=1", BASE_URL, symbolSep, "");
         Request request = new Request.Builder()
                 .url(url)
                 .build();
@@ -174,7 +174,7 @@ public class TwelveDataApiClientImpl implements TwelveDataApiClient {
         List<StockData> stockDataList = new ArrayList<>();
 
         for(String symbol : symbols) {
-            String url = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "a3dcac2780044c1c9578707634c78774");
+            String url = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "");
 
             Request request = new Request.Builder()
                     .url(url)
@@ -227,8 +227,8 @@ public class TwelveDataApiClientImpl implements TwelveDataApiClient {
     public FarragoOfData getFarragoOfData(String symbol) throws IOException {
 
         String quoteUrl = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "2fc75b90630244cdbdf0d59852f0dc65");
-        String timeSeriesUrl = String.format("%stime_series?symbol=%s&interval=1min&apikey=%s", BASE_URL, symbol, "eb4935bc04fb45e0b01708d697c31032");
-        String livePriceUrl = String.format("%sprice?symbol=%s&interval=1min&apikey=%s",BASE_URL, symbol, "2fc75b90630244cdbdf0d59852f0dc65");
+        String timeSeriesUrl = String.format("%stime_series?symbol=%s&interval=1min&apikey=%s", BASE_URL, symbol, "");
+        String livePriceUrl = String.format("%sprice?symbol=%s&interval=1min&apikey=%s",BASE_URL, symbol, "");
 
         Request quoteRequest = new Request.Builder()
                 .url(quoteUrl)
@@ -326,8 +326,8 @@ public class TwelveDataApiClientImpl implements TwelveDataApiClient {
         List<HomeScreen> homeScreenList = new ArrayList<>();
 
         for(String symbol : symbols) {
-            String livePriceUrl = String.format("%sprice?symbol=%s&interval=1min&apikey=%s",BASE_URL, symbol, "a3dcac2780044c1c9578707634c78774");
-            String quoteUrl = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "8c83f0b9ab1d43138b68d3a43f67e052");
+            String livePriceUrl = String.format("%sprice?symbol=%s&interval=1min&apikey=%s",BASE_URL, symbol, "");
+            String quoteUrl = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, symbol, "");
 
             HomeScreen homeScreen = new HomeScreen();
 
