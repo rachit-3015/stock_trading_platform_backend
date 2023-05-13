@@ -29,7 +29,7 @@ public class PortfolioServiceImpl implements PortfolioService {
     private ModelMapper modelMapper;
     @Autowired
     private TradeRepository tradeRepository;
-    private static final String BASE_URL = "https://api.twelvedata.com/";
+    private static final String BASE_URL = "";
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     private final OkHttpClient client;
     private final ObjectMapper objectMapper;
@@ -45,7 +45,7 @@ public class PortfolioServiceImpl implements PortfolioService {
         List<PortfolioModel> portfolioModelList = modelMapper.map(portfolioList,listType);
 
         for(PortfolioModel portfolioModel : portfolioModelList){
-            String url = String.format("%sprice?symbol=%s&interval=1min&apikey=%s", BASE_URL, portfolioModel.getSymbol(), "1ba484b6802b47ffa9fa8e430ce7dec1");
+            String url = String.format("%sprice?symbol=%s&interval=1min&apikey=%s", BASE_URL, portfolioModel.getSymbol(), "");
 
             Request request = new Request.Builder()
                     .url(url)
