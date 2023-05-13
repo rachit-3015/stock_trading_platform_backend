@@ -27,7 +27,7 @@ public class WatchListServiceImpl implements WatchListService {
     private ModelMapper modelMapper;
     private final OkHttpClient client;
     private final ObjectMapper objectMapper;
-    private static final String BASE_URL = "https://api.twelvedata.com/";
+    private static final String BASE_URL = "";
 
     public WatchListServiceImpl() {
         this.client = new OkHttpClient();
@@ -56,8 +56,8 @@ public class WatchListServiceImpl implements WatchListService {
         List<HomeScreen> homeScreenList = new ArrayList<>();
 
         for(WatchList watchList : allWatchList) {
-            String livePriceUrl = String.format("%sprice?symbol=%s&interval=1min&apikey=%s",BASE_URL, watchList.getSymbol(), "d73a23526dd6488dbecab206bf26c9d6");
-            String quoteUrl = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, watchList.getSymbol(), "80bbd26234a9458aa1c6954efe1fdba7");
+            String livePriceUrl = String.format("%sprice?symbol=%s&interval=1min&apikey=%s",BASE_URL, watchList.getSymbol(), "");
+            String quoteUrl = String.format("%squote?symbol=%s&apikey=%s", BASE_URL, watchList.getSymbol(), "");
 
             HomeScreen homeScreen = new HomeScreen();
 
