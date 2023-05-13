@@ -34,7 +34,7 @@ public class TradeServiceImpl implements TradeService {
     @Autowired
     private ModelMapper modelMapper;
 
-    private static final String BASE_URL = "https://api.twelvedata.com/";
+    private static final String BASE_URL = "";
     private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     private final OkHttpClient client;
     private final ObjectMapper objectMapper;
@@ -57,7 +57,7 @@ public class TradeServiceImpl implements TradeService {
         List<TradeModel> tradeModelList = modelMapper.map(tradeList,listType);
 
         for(TradeModel tradeModel : tradeModelList){
-            String url = String.format("%sprice?symbol=%s&interval=1min&apikey=%s", BASE_URL, tradeModel.getSymbol(), "34296748ee99443ba02419cc39aff308");
+            String url = String.format("%sprice?symbol=%s&interval=1min&apikey=%s", BASE_URL, tradeModel.getSymbol(), "");
 
             Request request = new Request.Builder()
                     .url(url)
