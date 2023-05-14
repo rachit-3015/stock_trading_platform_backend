@@ -1,3 +1,11 @@
 # stock_trading_platform_backend!
 ![com com](https://github.com/rachit-3015/rachit-3015/assets/82304901/584be2fe-ce9c-41c3-8685-d2c4c0100637)
 ![seventh](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/ed107a17-2bf5-4a70-87bc-d8d805b3f6c0)
+![theone](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/884c7478-4466-426f-8c0d-733a0ed92e40)
+![tenth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/79e2a94a-f8aa-4533-aa8f-aca393888f0e)
+![second](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/6e57b3b1-ecac-4b62-bff0-371f2033f6c8)
+![nineth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/4b8351fe-ebb5-49cc-8ebb-282acd4763d6)
+![twelveth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/9c3383f8-0d31-447e-bae4-3281a5e462d1)
+![eleventh](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/4fb79375-8d29-4212-b832-1e64b9d96598)
+![fourth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/76975577-d4f9-464e-a7ef-f87947069888)
+![thirteenth](https://github.com/rachit-3015/stock_trading_platform_backend/assets/82304901/43652fb9-a94a-47be-ab9c-550d35b918f4)
