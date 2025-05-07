@@ -22,4 +22,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         CustomUserDetails customUserDetails = new CustomUserDetails(user);
         return customUserDetails;
     }
+
+    public void methodName(){
+        System.out.println("Let me tell you something");
+    }
 }
