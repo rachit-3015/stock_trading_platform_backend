@@ -26,4 +26,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     public void methodName(){
         System.out.println("Let me tell you something");
     }
+
+    public void methodNameOne(){
+        System.out.println("Let me tell you something");
+    }
 }
